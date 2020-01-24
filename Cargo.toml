@@ -1,0 +1,15 @@
+[package]
+name = "moonjit-src"
+version = "212.0.0+9916847"
+authors = ["Aleksandr Orlenko <zxteam@protonmail.com>"]
+edition = "2018"
+repository = "https://github.com/khvzak/moonjit-src-rs"
+keywords = ["lua", "luajit", "moonjit"]
+readme = "README.md"
+license = "MIT"
+description = """
+Sources of Moonjit and logic to build it.
+"""
+
+[dependencies]
+cc = "1.0"
